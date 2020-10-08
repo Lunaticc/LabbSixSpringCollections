@@ -1,0 +1,71 @@
+<!doctype html>
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="/css/main.css" type="text/css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="card shadow border">
+            <h1 class="form-h1">User form!</h1>
+            <form action="/formresults" method="POST">
+
+                <div class="form-group">
+                    <label for="first" class="label"><b>First name</b></label>
+                    <input id="first" type="text" name="first_name">
+                </div>
+
+                <div class="form-group">
+                    <label><b>Last name</b></label>
+                    <input type="text" name="last_name">
+                </div>
+
+                <div class="form-group">
+                    <label><b>Date of birth</b></label>
+                    <input type="date" name="birthday">
+                </div>
+
+                <div class="form-group">
+                    <label><b>Gender</b></label>
+
+                    <div class="gender-div">
+                        <label>Male</label>
+                        <input type="radio" name="Gender" value="Male">
+
+                        <label>Female</label>
+                        <input type="radio" name="Gender" value="Female">
+                    </div>
+
+
+                </div>
+
+                <div class="form-group">
+                    <label><b>Uni programme</b></label>
+                    <select name="programme">
+                        <option disabled="disabled" selected="selected">chose option</option>
+                        <option>System science</option>
+                        <option>Information design</option>
+                        <option>IT-security</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label><b>Something about you</b></label>
+                    <textarea name="about-you" cols="30" rows="10"></textarea>
+                </div>
+                <div class="form-btn">
+                    <button class="btn btn-primary btn-space">Submit</button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+
+</body>

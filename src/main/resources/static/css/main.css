@@ -1,0 +1,104 @@
+html, body{
+    background-color: lightgray;
+}
+
+.containerBox{
+    display: flex;
+    margin: 10px auto;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+form{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container-userview{
+    display: flex;
+    margin: 1rem auto;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.card{
+    margin-top: 1rem;
+    width: 30rem;
+}
+
+.border{
+    border: solid 1px black;
+}
+
+.shadow{
+    box-shadow: black 10px 10px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.inlineDiv{
+    display: inline;
+}
+
+.card-own:not(:last-child){
+    margin-right: 10px;
+}
+
+.information_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: baseline;
+    margin-left: 1rem;
+}
+
+.flex_container{
+    margin: 10px auto;
+    background-color: gray;
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.form-group{
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form-btn{
+    margin-bottom: 10px;
+}
+.form-h1{
+    margin: 10px auto;
+}
+
+.gender-div{
+    flex-direction: row;
+}
+
+.gender-div>label:not(:first-child){
+    margin-left: 1rem;
+}
+
+.formresult-div{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-area-input{
+    height: 10rem;
+}
+.padding{
+    padding: 1rem;
+}
+.baseline-btn{
+    align-self: flex-start;
+
+}
